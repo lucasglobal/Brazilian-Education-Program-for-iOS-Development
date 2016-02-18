@@ -1,0 +1,514 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4B2C72C192FD874005A6428 /* JokenpoResultadoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B2C72A192FD874005A6428 /* JokenpoResultadoViewController.m */; };
+		E4B2C72D192FD874005A6428 /* JokenpoResultadoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4B2C72B192FD874005A6428 /* JokenpoResultadoViewController.xib */; };
+		E4B2C72F192FE480005A6428 /* pedra.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4B2C72E192FE480005A6428 /* pedra.jpg */; };
+		E4B2C731192FE515005A6428 /* papel.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4B2C730192FE515005A6428 /* papel.jpg */; };
+		E4B871FE192E78FF007BC99D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B871FD192E78FF007BC99D /* Foundation.framework */; };
+		E4B87200192E78FF007BC99D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B871FF192E78FF007BC99D /* CoreGraphics.framework */; };
+		E4B87202192E78FF007BC99D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B87201192E78FF007BC99D /* UIKit.framework */; };
+		E4B87208192E78FF007BC99D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4B87206192E78FF007BC99D /* InfoPlist.strings */; };
+		E4B8720A192E78FF007BC99D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B87209192E78FF007BC99D /* main.m */; };
+		E4B8720E192E78FF007BC99D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8720D192E78FF007BC99D /* AppDelegate.m */; };
+		E4B87210192E78FF007BC99D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4B8720F192E78FF007BC99D /* Images.xcassets */; };
+		E4B87217192E78FF007BC99D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B87216192E78FF007BC99D /* XCTest.framework */; };
+		E4B87218192E78FF007BC99D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B871FD192E78FF007BC99D /* Foundation.framework */; };
+		E4B87219192E78FF007BC99D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4B87201192E78FF007BC99D /* UIKit.framework */; };
+		E4B87221192E7900007BC99D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4B8721F192E78FF007BC99D /* InfoPlist.strings */; };
+		E4B87223192E7900007BC99D /* desafioApp2_maio_22Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B87222192E7900007BC99D /* desafioApp2_maio_22Tests.m */; };
+		E4B8722F192E7937007BC99D /* JogoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B8722D192E7937007BC99D /* JogoViewController.m */; };
+		E4B87230192E7937007BC99D /* JogoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4B8722E192E7937007BC99D /* JogoViewController.xib */; };
+		E4B87234192E7BAB007BC99D /* ResultadojogoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4B87232192E7BAB007BC99D /* ResultadojogoViewController.m */; };
+		E4B87235192E7BAB007BC99D /* ResultadojogoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4B87233192E7BAB007BC99D /* ResultadojogoViewController.xib */; };
+		E4B8723B192E8BEC007BC99D /* dedoCinco.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4B87236192E8BEC007BC99D /* dedoCinco.jpg */; };
+		E4B8723C192E8BEC007BC99D /* dedoDois.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4B87237192E8BEC007BC99D /* dedoDois.jpg */; };
+		E4B8723D192E8BEC007BC99D /* dedoQuatro.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4B87238192E8BEC007BC99D /* dedoQuatro.jpg */; };
+		E4B8723E192E8BEC007BC99D /* dedoTres.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4B87239192E8BEC007BC99D /* dedoTres.jpg */; };
+		E4B8723F192E8BEC007BC99D /* dedoUm.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E4B8723A192E8BEC007BC99D /* dedoUm.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4B8721A192E78FF007BC99D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4B871F2192E78FF007BC99D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4B871F9192E78FF007BC99D;
+			remoteInfo = desafioApp2_maio_22;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4B2C729192FD874005A6428 /* JokenpoResultadoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JokenpoResultadoViewController.h; sourceTree = "<group>"; };
+		E4B2C72A192FD874005A6428 /* JokenpoResultadoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JokenpoResultadoViewController.m; sourceTree = "<group>"; };
+		E4B2C72B192FD874005A6428 /* JokenpoResultadoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JokenpoResultadoViewController.xib; sourceTree = "<group>"; };
+		E4B2C72E192FE480005A6428 /* pedra.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pedra.jpg; sourceTree = "<group>"; };
+		E4B2C730192FE515005A6428 /* papel.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = papel.jpg; sourceTree = "<group>"; };
+		E4B871FA192E78FF007BC99D /* desafioApp2_maio_22.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafioApp2_maio_22.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B871FD192E78FF007BC99D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4B871FF192E78FF007BC99D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E4B87201192E78FF007BC99D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E4B87205192E78FF007BC99D /* desafioApp2_maio_22-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "desafioApp2_maio_22-Info.plist"; sourceTree = "<group>"; };
+		E4B87207192E78FF007BC99D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4B87209192E78FF007BC99D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4B8720B192E78FF007BC99D /* desafioApp2_maio_22-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "desafioApp2_maio_22-Prefix.pch"; sourceTree = "<group>"; };
+		E4B8720C192E78FF007BC99D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4B8720D192E78FF007BC99D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4B8720F192E78FF007BC99D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E4B87215192E78FF007BC99D /* desafioApp2_maio_22Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = desafioApp2_maio_22Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4B87216192E78FF007BC99D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E4B8721E192E78FF007BC99D /* desafioApp2_maio_22Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "desafioApp2_maio_22Tests-Info.plist"; sourceTree = "<group>"; };
+		E4B87220192E78FF007BC99D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4B87222192E7900007BC99D /* desafioApp2_maio_22Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = desafioApp2_maio_22Tests.m; sourceTree = "<group>"; };
+		E4B8722C192E7937007BC99D /* JogoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JogoViewController.h; sourceTree = "<group>"; };
+		E4B8722D192E7937007BC99D /* JogoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JogoViewController.m; sourceTree = "<group>"; };
+		E4B8722E192E7937007BC99D /* JogoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JogoViewController.xib; sourceTree = "<group>"; };
+		E4B87231192E7BAB007BC99D /* ResultadojogoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultadojogoViewController.h; sourceTree = "<group>"; };
+		E4B87232192E7BAB007BC99D /* ResultadojogoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultadojogoViewController.m; sourceTree = "<group>"; };
+		E4B87233192E7BAB007BC99D /* ResultadojogoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ResultadojogoViewController.xib; sourceTree = "<group>"; };
+		E4B87236192E8BEC007BC99D /* dedoCinco.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dedoCinco.jpg; sourceTree = "<group>"; };
+		E4B87237192E8BEC007BC99D /* dedoDois.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dedoDois.jpg; sourceTree = "<group>"; };
+		E4B87238192E8BEC007BC99D /* dedoQuatro.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dedoQuatro.jpg; sourceTree = "<group>"; };
+		E4B87239192E8BEC007BC99D /* dedoTres.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dedoTres.jpg; sourceTree = "<group>"; };
+		E4B8723A192E8BEC007BC99D /* dedoUm.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dedoUm.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4B871F7192E78FF007BC99D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B87200192E78FF007BC99D /* CoreGraphics.framework in Frameworks */,
+				E4B87202192E78FF007BC99D /* UIKit.framework in Frameworks */,
+				E4B871FE192E78FF007BC99D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B87212192E78FF007BC99D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B87217192E78FF007BC99D /* XCTest.framework in Frameworks */,
+				E4B87219192E78FF007BC99D /* UIKit.framework in Frameworks */,
+				E4B87218192E78FF007BC99D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4B871F1192E78FF007BC99D = {
+			isa = PBXGroup;
+			children = (
+				E4B87203192E78FF007BC99D /* desafioApp2_maio_22 */,
+				E4B8721C192E78FF007BC99D /* desafioApp2_maio_22Tests */,
+				E4B871FC192E78FF007BC99D /* Frameworks */,
+				E4B871FB192E78FF007BC99D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4B871FB192E78FF007BC99D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4B871FA192E78FF007BC99D /* desafioApp2_maio_22.app */,
+				E4B87215192E78FF007BC99D /* desafioApp2_maio_22Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4B871FC192E78FF007BC99D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4B871FD192E78FF007BC99D /* Foundation.framework */,
+				E4B871FF192E78FF007BC99D /* CoreGraphics.framework */,
+				E4B87201192E78FF007BC99D /* UIKit.framework */,
+				E4B87216192E78FF007BC99D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4B87203192E78FF007BC99D /* desafioApp2_maio_22 */ = {
+			isa = PBXGroup;
+			children = (
+				E4B8720C192E78FF007BC99D /* AppDelegate.h */,
+				E4B8720D192E78FF007BC99D /* AppDelegate.m */,
+				E4B8720F192E78FF007BC99D /* Images.xcassets */,
+				E4B87204192E78FF007BC99D /* Supporting Files */,
+				E4B8722C192E7937007BC99D /* JogoViewController.h */,
+				E4B8722D192E7937007BC99D /* JogoViewController.m */,
+				E4B8722E192E7937007BC99D /* JogoViewController.xib */,
+				E4B87231192E7BAB007BC99D /* ResultadojogoViewController.h */,
+				E4B87232192E7BAB007BC99D /* ResultadojogoViewController.m */,
+				E4B87233192E7BAB007BC99D /* ResultadojogoViewController.xib */,
+				E4B87236192E8BEC007BC99D /* dedoCinco.jpg */,
+				E4B87237192E8BEC007BC99D /* dedoDois.jpg */,
+				E4B87238192E8BEC007BC99D /* dedoQuatro.jpg */,
+				E4B87239192E8BEC007BC99D /* dedoTres.jpg */,
+				E4B8723A192E8BEC007BC99D /* dedoUm.jpg */,
+				E4B2C72E192FE480005A6428 /* pedra.jpg */,
+				E4B2C730192FE515005A6428 /* papel.jpg */,
+				E4B2C729192FD874005A6428 /* JokenpoResultadoViewController.h */,
+				E4B2C72A192FD874005A6428 /* JokenpoResultadoViewController.m */,
+				E4B2C72B192FD874005A6428 /* JokenpoResultadoViewController.xib */,
+			);
+			path = desafioApp2_maio_22;
+			sourceTree = "<group>";
+		};
+		E4B87204192E78FF007BC99D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4B87205192E78FF007BC99D /* desafioApp2_maio_22-Info.plist */,
+				E4B87206192E78FF007BC99D /* InfoPlist.strings */,
+				E4B87209192E78FF007BC99D /* main.m */,
+				E4B8720B192E78FF007BC99D /* desafioApp2_maio_22-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4B8721C192E78FF007BC99D /* desafioApp2_maio_22Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E4B87222192E7900007BC99D /* desafioApp2_maio_22Tests.m */,
+				E4B8721D192E78FF007BC99D /* Supporting Files */,
+			);
+			path = desafioApp2_maio_22Tests;
+			sourceTree = "<group>";
+		};
+		E4B8721D192E78FF007BC99D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4B8721E192E78FF007BC99D /* desafioApp2_maio_22Tests-Info.plist */,
+				E4B8721F192E78FF007BC99D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4B871F9192E78FF007BC99D /* desafioApp2_maio_22 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B87226192E7900007BC99D /* Build configuration list for PBXNativeTarget "desafioApp2_maio_22" */;
+			buildPhases = (
+				E4B871F6192E78FF007BC99D /* Sources */,
+				E4B871F7192E78FF007BC99D /* Frameworks */,
+				E4B871F8192E78FF007BC99D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = desafioApp2_maio_22;
+			productName = desafioApp2_maio_22;
+			productReference = E4B871FA192E78FF007BC99D /* desafioApp2_maio_22.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4B87214192E78FF007BC99D /* desafioApp2_maio_22Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4B87229192E7900007BC99D /* Build configuration list for PBXNativeTarget "desafioApp2_maio_22Tests" */;
+			buildPhases = (
+				E4B87211192E78FF007BC99D /* Sources */,
+				E4B87212192E78FF007BC99D /* Frameworks */,
+				E4B87213192E78FF007BC99D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4B8721B192E78FF007BC99D /* PBXTargetDependency */,
+			);
+			name = desafioApp2_maio_22Tests;
+			productName = desafioApp2_maio_22Tests;
+			productReference = E4B87215192E78FF007BC99D /* desafioApp2_maio_22Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4B871F2192E78FF007BC99D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Lucas Andrade Ribeiro";
+				TargetAttributes = {
+					E4B87214192E78FF007BC99D = {
+						TestTargetID = E4B871F9192E78FF007BC99D;
+					};
+				};
+			};
+			buildConfigurationList = E4B871F5192E78FF007BC99D /* Build configuration list for PBXProject "desafioApp2_maio_22" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E4B871F1192E78FF007BC99D;
+			productRefGroup = E4B871FB192E78FF007BC99D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4B871F9192E78FF007BC99D /* desafioApp2_maio_22 */,
+				E4B87214192E78FF007BC99D /* desafioApp2_maio_22Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4B871F8192E78FF007BC99D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B8723D192E8BEC007BC99D /* dedoQuatro.jpg in Resources */,
+				E4B2C72D192FD874005A6428 /* JokenpoResultadoViewController.xib in Resources */,
+				E4B2C731192FE515005A6428 /* papel.jpg in Resources */,
+				E4B87208192E78FF007BC99D /* InfoPlist.strings in Resources */,
+				E4B8723F192E8BEC007BC99D /* dedoUm.jpg in Resources */,
+				E4B87235192E7BAB007BC99D /* ResultadojogoViewController.xib in Resources */,
+				E4B2C72F192FE480005A6428 /* pedra.jpg in Resources */,
+				E4B8723C192E8BEC007BC99D /* dedoDois.jpg in Resources */,
+				E4B8723B192E8BEC007BC99D /* dedoCinco.jpg in Resources */,
+				E4B8723E192E8BEC007BC99D /* dedoTres.jpg in Resources */,
+				E4B87230192E7937007BC99D /* JogoViewController.xib in Resources */,
+				E4B87210192E78FF007BC99D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B87213192E78FF007BC99D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B87221192E7900007BC99D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4B871F6192E78FF007BC99D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B8722F192E7937007BC99D /* JogoViewController.m in Sources */,
+				E4B87234192E7BAB007BC99D /* ResultadojogoViewController.m in Sources */,
+				E4B8720E192E78FF007BC99D /* AppDelegate.m in Sources */,
+				E4B2C72C192FD874005A6428 /* JokenpoResultadoViewController.m in Sources */,
+				E4B8720A192E78FF007BC99D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4B87211192E78FF007BC99D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4B87223192E7900007BC99D /* desafioApp2_maio_22Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4B8721B192E78FF007BC99D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4B871F9192E78FF007BC99D /* desafioApp2_maio_22 */;
+			targetProxy = E4B8721A192E78FF007BC99D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4B87206192E78FF007BC99D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4B87207192E78FF007BC99D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E4B8721F192E78FF007BC99D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4B87220192E78FF007BC99D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4B87224192E7900007BC99D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4B87225192E7900007BC99D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4B87227192E7900007BC99D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "desafioApp2_maio_22/desafioApp2_maio_22-Prefix.pch";
+				INFOPLIST_FILE = "desafioApp2_maio_22/desafioApp2_maio_22-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4B87228192E7900007BC99D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "desafioApp2_maio_22/desafioApp2_maio_22-Prefix.pch";
+				INFOPLIST_FILE = "desafioApp2_maio_22/desafioApp2_maio_22-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E4B8722A192E7900007BC99D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/desafioApp2_maio_22.app/desafioApp2_maio_22";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "desafioApp2_maio_22/desafioApp2_maio_22-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "desafioApp2_maio_22Tests/desafioApp2_maio_22Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E4B8722B192E7900007BC99D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/desafioApp2_maio_22.app/desafioApp2_maio_22";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "desafioApp2_maio_22/desafioApp2_maio_22-Prefix.pch";
+				INFOPLIST_FILE = "desafioApp2_maio_22Tests/desafioApp2_maio_22Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4B871F5192E78FF007BC99D /* Build configuration list for PBXProject "desafioApp2_maio_22" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B87224192E7900007BC99D /* Debug */,
+				E4B87225192E7900007BC99D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B87226192E7900007BC99D /* Build configuration list for PBXNativeTarget "desafioApp2_maio_22" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B87227192E7900007BC99D /* Debug */,
+				E4B87228192E7900007BC99D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4B87229192E7900007BC99D /* Build configuration list for PBXNativeTarget "desafioApp2_maio_22Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4B8722A192E7900007BC99D /* Debug */,
+				E4B8722B192E7900007BC99D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4B871F2192E78FF007BC99D /* Project object */;
+}

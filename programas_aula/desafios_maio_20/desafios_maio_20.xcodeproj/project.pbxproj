@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E47A36FF192C1E6300E99E12 /* viewFranca.m in Sources */ = {isa = PBXBuildFile; fileRef = E47A36FE192C1E6300E99E12 /* viewFranca.m */; };
+		E47A3702192C23ED00E99E12 /* viewSuica.m in Sources */ = {isa = PBXBuildFile; fileRef = E47A3701192C23ED00E99E12 /* viewSuica.m */; };
+		E47A3705192C27F100E99E12 /* viewChile.m in Sources */ = {isa = PBXBuildFile; fileRef = E47A3704192C27F100E99E12 /* viewChile.m */; };
+		E47A3709192C358900E99E12 /* 4i9aezKET.png in Resources */ = {isa = PBXBuildFile; fileRef = E47A3708192C358900E99E12 /* 4i9aezKET.png */; };
+		E47A370C192C3A3F00E99E12 /* viewGrecia.m in Sources */ = {isa = PBXBuildFile; fileRef = E47A370B192C3A3F00E99E12 /* viewGrecia.m */; };
+		E47A370F192C44A200E99E12 /* viewBrasil.m in Sources */ = {isa = PBXBuildFile; fileRef = E47A370E192C44A200E99E12 /* viewBrasil.m */; };
+		E47A3711192C482600E99E12 /* estrela_pequena.png in Resources */ = {isa = PBXBuildFile; fileRef = E47A3710192C482600E99E12 /* estrela_pequena.png */; };
+		E47A3713192C483100E99E12 /* ordem_e_progresso.png in Resources */ = {isa = PBXBuildFile; fileRef = E47A3712192C483100E99E12 /* ordem_e_progresso.png */; };
+		E47A3716192C5EA600E99E12 /* viewCoreiaSul.m in Sources */ = {isa = PBXBuildFile; fileRef = E47A3715192C5EA600E99E12 /* viewCoreiaSul.m */; };
+		E47A3718192C601600E99E12 /* Flag_of_South_Korea.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = E47A3717192C601600E99E12 /* Flag_of_South_Korea.svg.png */; };
+		E4AB9277192BDA520087AD46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4AB9276192BDA520087AD46 /* Foundation.framework */; };
+		E4AB9279192BDA520087AD46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4AB9278192BDA520087AD46 /* CoreGraphics.framework */; };
+		E4AB927B192BDA520087AD46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4AB927A192BDA520087AD46 /* UIKit.framework */; };
+		E4AB9281192BDA520087AD46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4AB927F192BDA520087AD46 /* InfoPlist.strings */; };
+		E4AB9283192BDA520087AD46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AB9282192BDA520087AD46 /* main.m */; };
+		E4AB9287192BDA520087AD46 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AB9286192BDA520087AD46 /* AppDelegate.m */; };
+		E4AB9289192BDA520087AD46 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4AB9288192BDA520087AD46 /* Images.xcassets */; };
+		E4AB9290192BDA530087AD46 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4AB928F192BDA530087AD46 /* XCTest.framework */; };
+		E4AB9291192BDA530087AD46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4AB9276192BDA520087AD46 /* Foundation.framework */; };
+		E4AB9292192BDA530087AD46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4AB927A192BDA520087AD46 /* UIKit.framework */; };
+		E4AB929A192BDA530087AD46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4AB9298192BDA530087AD46 /* InfoPlist.strings */; };
+		E4AB929C192BDA530087AD46 /* desafios_maio_20Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AB929B192BDA530087AD46 /* desafios_maio_20Tests.m */; };
+		E4AB92A8192BDA780087AD46 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AB92A6192BDA780087AD46 /* ViewController.m */; };
+		E4AB92A9192BDA780087AD46 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4AB92A7192BDA780087AD46 /* ViewController.xib */; };
+		E4AB92B4192BF43D0087AD46 /* viewJapao.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AB92B3192BF43D0087AD46 /* viewJapao.m */; };
+		E4AB92B8192BF5910087AD46 /* DesenhoPaisViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4AB92B6192BF5910087AD46 /* DesenhoPaisViewController.m */; };
+		E4AB92B9192BF5910087AD46 /* DesenhoPaisViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4AB92B7192BF5910087AD46 /* DesenhoPaisViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4AB9293192BDA530087AD46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4AB926B192BDA520087AD46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4AB9272192BDA520087AD46;
+			remoteInfo = desafios_maio_20;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E47A36FD192C1E6300E99E12 /* viewFranca.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewFranca.h; sourceTree = "<group>"; };
+		E47A36FE192C1E6300E99E12 /* viewFranca.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewFranca.m; sourceTree = "<group>"; };
+		E47A3700192C23ED00E99E12 /* viewSuica.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = viewSuica.h; path = ../viewSuica.h; sourceTree = "<group>"; };
+		E47A3701192C23ED00E99E12 /* viewSuica.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = viewSuica.m; path = ../viewSuica.m; sourceTree = "<group>"; };
+		E47A3703192C27F100E99E12 /* viewChile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewChile.h; sourceTree = "<group>"; };
+		E47A3704192C27F100E99E12 /* viewChile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewChile.m; sourceTree = "<group>"; };
+		E47A3708192C358900E99E12 /* 4i9aezKET.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4i9aezKET.png; sourceTree = "<group>"; };
+		E47A370A192C3A3F00E99E12 /* viewGrecia.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewGrecia.h; sourceTree = "<group>"; };
+		E47A370B192C3A3F00E99E12 /* viewGrecia.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewGrecia.m; sourceTree = "<group>"; };
+		E47A370D192C44A200E99E12 /* viewBrasil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewBrasil.h; sourceTree = "<group>"; };
+		E47A370E192C44A200E99E12 /* viewBrasil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewBrasil.m; sourceTree = "<group>"; };
+		E47A3710192C482600E99E12 /* estrela_pequena.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = estrela_pequena.png; sourceTree = "<group>"; };
+		E47A3712192C483100E99E12 /* ordem_e_progresso.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ordem_e_progresso.png; sourceTree = "<group>"; };
+		E47A3714192C5EA600E99E12 /* viewCoreiaSul.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewCoreiaSul.h; sourceTree = "<group>"; };
+		E47A3715192C5EA600E99E12 /* viewCoreiaSul.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewCoreiaSul.m; sourceTree = "<group>"; };
+		E47A3717192C601600E99E12 /* Flag_of_South_Korea.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Flag_of_South_Korea.svg.png; sourceTree = "<group>"; };
+		E4AB9273192BDA520087AD46 /* desafios_maio_20.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafios_maio_20.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4AB9276192BDA520087AD46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4AB9278192BDA520087AD46 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E4AB927A192BDA520087AD46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E4AB927E192BDA520087AD46 /* desafios_maio_20-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "desafios_maio_20-Info.plist"; sourceTree = "<group>"; };
+		E4AB9280192BDA520087AD46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4AB9282192BDA520087AD46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4AB9284192BDA520087AD46 /* desafios_maio_20-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "desafios_maio_20-Prefix.pch"; sourceTree = "<group>"; };
+		E4AB9285192BDA520087AD46 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4AB9286192BDA520087AD46 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4AB9288192BDA520087AD46 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E4AB928E192BDA530087AD46 /* desafios_maio_20Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = desafios_maio_20Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4AB928F192BDA530087AD46 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E4AB9297192BDA530087AD46 /* desafios_maio_20Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "desafios_maio_20Tests-Info.plist"; sourceTree = "<group>"; };
+		E4AB9299192BDA530087AD46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4AB929B192BDA530087AD46 /* desafios_maio_20Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = desafios_maio_20Tests.m; sourceTree = "<group>"; };
+		E4AB92A5192BDA780087AD46 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E4AB92A6192BDA780087AD46 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E4AB92A7192BDA780087AD46 /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		E4AB92B2192BF43D0087AD46 /* viewJapao.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewJapao.h; sourceTree = "<group>"; };
+		E4AB92B3192BF43D0087AD46 /* viewJapao.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewJapao.m; sourceTree = "<group>"; };
+		E4AB92B5192BF5910087AD46 /* DesenhoPaisViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DesenhoPaisViewController.h; sourceTree = "<group>"; };
+		E4AB92B6192BF5910087AD46 /* DesenhoPaisViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DesenhoPaisViewController.m; sourceTree = "<group>"; };
+		E4AB92B7192BF5910087AD46 /* DesenhoPaisViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DesenhoPaisViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4AB9270192BDA520087AD46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4AB9279192BDA520087AD46 /* CoreGraphics.framework in Frameworks */,
+				E4AB927B192BDA520087AD46 /* UIKit.framework in Frameworks */,
+				E4AB9277192BDA520087AD46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AB928B192BDA530087AD46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4AB9290192BDA530087AD46 /* XCTest.framework in Frameworks */,
+				E4AB9292192BDA530087AD46 /* UIKit.framework in Frameworks */,
+				E4AB9291192BDA530087AD46 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4AB926A192BDA520087AD46 = {
+			isa = PBXGroup;
+			children = (
+				E4AB927C192BDA520087AD46 /* desafios_maio_20 */,
+				E4AB9295192BDA530087AD46 /* desafios_maio_20Tests */,
+				E4AB9275192BDA520087AD46 /* Frameworks */,
+				E4AB9274192BDA520087AD46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4AB9274192BDA520087AD46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4AB9273192BDA520087AD46 /* desafios_maio_20.app */,
+				E4AB928E192BDA530087AD46 /* desafios_maio_20Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4AB9275192BDA520087AD46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4AB9276192BDA520087AD46 /* Foundation.framework */,
+				E4AB9278192BDA520087AD46 /* CoreGraphics.framework */,
+				E4AB927A192BDA520087AD46 /* UIKit.framework */,
+				E4AB928F192BDA530087AD46 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4AB927C192BDA520087AD46 /* desafios_maio_20 */ = {
+			isa = PBXGroup;
+			children = (
+				E47A3717192C601600E99E12 /* Flag_of_South_Korea.svg.png */,
+				E47A3712192C483100E99E12 /* ordem_e_progresso.png */,
+				E47A3710192C482600E99E12 /* estrela_pequena.png */,
+				E47A3708192C358900E99E12 /* 4i9aezKET.png */,
+				E4AB9285192BDA520087AD46 /* AppDelegate.h */,
+				E4AB9286192BDA520087AD46 /* AppDelegate.m */,
+				E4AB9288192BDA520087AD46 /* Images.xcassets */,
+				E4AB927D192BDA520087AD46 /* Supporting Files */,
+				E4AB92A5192BDA780087AD46 /* ViewController.h */,
+				E4AB92A6192BDA780087AD46 /* ViewController.m */,
+				E4AB92A7192BDA780087AD46 /* ViewController.xib */,
+				E4AB92B5192BF5910087AD46 /* DesenhoPaisViewController.h */,
+				E4AB92B6192BF5910087AD46 /* DesenhoPaisViewController.m */,
+				E4AB92B7192BF5910087AD46 /* DesenhoPaisViewController.xib */,
+				E4AB92B2192BF43D0087AD46 /* viewJapao.h */,
+				E4AB92B3192BF43D0087AD46 /* viewJapao.m */,
+				E47A36FD192C1E6300E99E12 /* viewFranca.h */,
+				E47A36FE192C1E6300E99E12 /* viewFranca.m */,
+				E47A3700192C23ED00E99E12 /* viewSuica.h */,
+				E47A3701192C23ED00E99E12 /* viewSuica.m */,
+				E47A3703192C27F100E99E12 /* viewChile.h */,
+				E47A3704192C27F100E99E12 /* viewChile.m */,
+				E47A370A192C3A3F00E99E12 /* viewGrecia.h */,
+				E47A370B192C3A3F00E99E12 /* viewGrecia.m */,
+				E47A370D192C44A200E99E12 /* viewBrasil.h */,
+				E47A370E192C44A200E99E12 /* viewBrasil.m */,
+				E47A3714192C5EA600E99E12 /* viewCoreiaSul.h */,
+				E47A3715192C5EA600E99E12 /* viewCoreiaSul.m */,
+			);
+			path = desafios_maio_20;
+			sourceTree = "<group>";
+		};
+		E4AB927D192BDA520087AD46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4AB927E192BDA520087AD46 /* desafios_maio_20-Info.plist */,
+				E4AB927F192BDA520087AD46 /* InfoPlist.strings */,
+				E4AB9282192BDA520087AD46 /* main.m */,
+				E4AB9284192BDA520087AD46 /* desafios_maio_20-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4AB9295192BDA530087AD46 /* desafios_maio_20Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E4AB929B192BDA530087AD46 /* desafios_maio_20Tests.m */,
+				E4AB9296192BDA530087AD46 /* Supporting Files */,
+			);
+			path = desafios_maio_20Tests;
+			sourceTree = "<group>";
+		};
+		E4AB9296192BDA530087AD46 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4AB9297192BDA530087AD46 /* desafios_maio_20Tests-Info.plist */,
+				E4AB9298192BDA530087AD46 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4AB9272192BDA520087AD46 /* desafios_maio_20 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4AB929F192BDA530087AD46 /* Build configuration list for PBXNativeTarget "desafios_maio_20" */;
+			buildPhases = (
+				E4AB926F192BDA520087AD46 /* Sources */,
+				E4AB9270192BDA520087AD46 /* Frameworks */,
+				E4AB9271192BDA520087AD46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = desafios_maio_20;
+			productName = desafios_maio_20;
+			productReference = E4AB9273192BDA520087AD46 /* desafios_maio_20.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4AB928D192BDA530087AD46 /* desafios_maio_20Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4AB92A2192BDA530087AD46 /* Build configuration list for PBXNativeTarget "desafios_maio_20Tests" */;
+			buildPhases = (
+				E4AB928A192BDA530087AD46 /* Sources */,
+				E4AB928B192BDA530087AD46 /* Frameworks */,
+				E4AB928C192BDA530087AD46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4AB9294192BDA530087AD46 /* PBXTargetDependency */,
+			);
+			name = desafios_maio_20Tests;
+			productName = desafios_maio_20Tests;
+			productReference = E4AB928E192BDA530087AD46 /* desafios_maio_20Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4AB926B192BDA520087AD46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Lucas Andrade Ribeiro";
+				TargetAttributes = {
+					E4AB928D192BDA530087AD46 = {
+						TestTargetID = E4AB9272192BDA520087AD46;
+					};
+				};
+			};
+			buildConfigurationList = E4AB926E192BDA520087AD46 /* Build configuration list for PBXProject "desafios_maio_20" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E4AB926A192BDA520087AD46;
+			productRefGroup = E4AB9274192BDA520087AD46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4AB9272192BDA520087AD46 /* desafios_maio_20 */,
+				E4AB928D192BDA530087AD46 /* desafios_maio_20Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4AB9271192BDA520087AD46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4AB92B9192BF5910087AD46 /* DesenhoPaisViewController.xib in Resources */,
+				E47A3709192C358900E99E12 /* 4i9aezKET.png in Resources */,
+				E47A3713192C483100E99E12 /* ordem_e_progresso.png in Resources */,
+				E4AB9281192BDA520087AD46 /* InfoPlist.strings in Resources */,
+				E4AB92A9192BDA780087AD46 /* ViewController.xib in Resources */,
+				E47A3718192C601600E99E12 /* Flag_of_South_Korea.svg.png in Resources */,
+				E47A3711192C482600E99E12 /* estrela_pequena.png in Resources */,
+				E4AB9289192BDA520087AD46 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AB928C192BDA530087AD46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4AB929A192BDA530087AD46 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4AB926F192BDA520087AD46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4AB92B4192BF43D0087AD46 /* viewJapao.m in Sources */,
+				E4AB92A8192BDA780087AD46 /* ViewController.m in Sources */,
+				E4AB9287192BDA520087AD46 /* AppDelegate.m in Sources */,
+				E4AB92B8192BF5910087AD46 /* DesenhoPaisViewController.m in Sources */,
+				E4AB9283192BDA520087AD46 /* main.m in Sources */,
+				E47A3716192C5EA600E99E12 /* viewCoreiaSul.m in Sources */,
+				E47A36FF192C1E6300E99E12 /* viewFranca.m in Sources */,
+				E47A3705192C27F100E99E12 /* viewChile.m in Sources */,
+				E47A370C192C3A3F00E99E12 /* viewGrecia.m in Sources */,
+				E47A3702192C23ED00E99E12 /* viewSuica.m in Sources */,
+				E47A370F192C44A200E99E12 /* viewBrasil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4AB928A192BDA530087AD46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4AB929C192BDA530087AD46 /* desafios_maio_20Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4AB9294192BDA530087AD46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4AB9272192BDA520087AD46 /* desafios_maio_20 */;
+			targetProxy = E4AB9293192BDA530087AD46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4AB927F192BDA520087AD46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4AB9280192BDA520087AD46 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E4AB9298192BDA530087AD46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4AB9299192BDA530087AD46 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4AB929D192BDA530087AD46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E4AB929E192BDA530087AD46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4AB92A0192BDA530087AD46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "desafios_maio_20/desafios_maio_20-Prefix.pch";
+				INFOPLIST_FILE = "desafios_maio_20/desafios_maio_20-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4AB92A1192BDA530087AD46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "desafios_maio_20/desafios_maio_20-Prefix.pch";
+				INFOPLIST_FILE = "desafios_maio_20/desafios_maio_20-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E4AB92A3192BDA530087AD46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/desafios_maio_20.app/desafios_maio_20";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "desafios_maio_20/desafios_maio_20-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "desafios_maio_20Tests/desafios_maio_20Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E4AB92A4192BDA530087AD46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/desafios_maio_20.app/desafios_maio_20";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "desafios_maio_20/desafios_maio_20-Prefix.pch";
+				INFOPLIST_FILE = "desafios_maio_20Tests/desafios_maio_20Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4AB926E192BDA520087AD46 /* Build configuration list for PBXProject "desafios_maio_20" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4AB929D192BDA530087AD46 /* Debug */,
+				E4AB929E192BDA530087AD46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4AB929F192BDA530087AD46 /* Build configuration list for PBXNativeTarget "desafios_maio_20" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4AB92A0192BDA530087AD46 /* Debug */,
+				E4AB92A1192BDA530087AD46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4AB92A2192BDA530087AD46 /* Build configuration list for PBXNativeTarget "desafios_maio_20Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4AB92A3192BDA530087AD46 /* Debug */,
+				E4AB92A4192BDA530087AD46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4AB926B192BDA520087AD46 /* Project object */;
+}

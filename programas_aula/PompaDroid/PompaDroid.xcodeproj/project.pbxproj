@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E409409519705D010098CEA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E409409419705D010098CEA0 /* Foundation.framework */; };
+		E409409719705D010098CEA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E409409619705D010098CEA0 /* CoreGraphics.framework */; };
+		E409409919705D010098CEA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E409409819705D010098CEA0 /* UIKit.framework */; };
+		E409409B19705D020098CEA0 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E409409A19705D020098CEA0 /* SpriteKit.framework */; };
+		E40940A119705D020098CEA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E409409F19705D020098CEA0 /* InfoPlist.strings */; };
+		E40940A319705D020098CEA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E40940A219705D020098CEA0 /* main.m */; };
+		E40940A719705D020098CEA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E40940A619705D020098CEA0 /* AppDelegate.m */; };
+		E40940AA19705D020098CEA0 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40940A819705D020098CEA0 /* Main_iPhone.storyboard */; };
+		E40940AD19705D020098CEA0 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40940AB19705D020098CEA0 /* Main_iPad.storyboard */; };
+		E40940B019705D020098CEA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40940AF19705D020098CEA0 /* ViewController.m */; };
+		E40940B719705D020098CEA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40940B619705D020098CEA0 /* Images.xcassets */; };
+		E40940BE19705D020098CEA0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E40940BD19705D020098CEA0 /* XCTest.framework */; };
+		E40940BF19705D020098CEA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E409409419705D010098CEA0 /* Foundation.framework */; };
+		E40940C019705D020098CEA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E409409819705D010098CEA0 /* UIKit.framework */; };
+		E40940C819705D020098CEA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E40940C619705D020098CEA0 /* InfoPlist.strings */; };
+		E40940CA19705D020098CEA0 /* PompaDroidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E40940C919705D020098CEA0 /* PompaDroidTests.m */; };
+		E40940DE19705F020098CEA0 /* bg_title.png in Resources */ = {isa = PBXBuildFile; fileRef = E40940D519705F020098CEA0 /* bg_title.png */; };
+		E40940DF19705F020098CEA0 /* joypad.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E40940D619705F020098CEA0 /* joypad.atlas */; };
+		E40940E019705F020098CEA0 /* map_level1.tmx in Resources */ = {isa = PBXBuildFile; fileRef = E40940D719705F020098CEA0 /* map_level1.tmx */; };
+		E40940E119705F020098CEA0 /* sprites.plist in Resources */ = {isa = PBXBuildFile; fileRef = E40940D919705F020098CEA0 /* sprites.plist */; };
+		E40940E219705F020098CEA0 /* sprites.png in Resources */ = {isa = PBXBuildFile; fileRef = E40940DA19705F020098CEA0 /* sprites.png */; };
+		E40940E319705F020098CEA0 /* tiles.png in Resources */ = {isa = PBXBuildFile; fileRef = E40940DB19705F020098CEA0 /* tiles.png */; };
+		E40940E419705F020098CEA0 /* txt_title.png in Resources */ = {isa = PBXBuildFile; fileRef = E40940DC19705F020098CEA0 /* txt_title.png */; };
+		E40940E519705F020098CEA0 /* txt_touchtostart.png in Resources */ = {isa = PBXBuildFile; fileRef = E40940DD19705F020098CEA0 /* txt_touchtostart.png */; };
+		E40940E919705FB60098CEA0 /* TitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E40940E819705FB60098CEA0 /* TitleScene.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E40940C119705D020098CEA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E409408919705D010098CEA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E409409019705D010098CEA0;
+			remoteInfo = PompaDroid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E409409119705D010098CEA0 /* PompaDroid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PompaDroid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E409409419705D010098CEA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E409409619705D010098CEA0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E409409819705D010098CEA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E409409A19705D020098CEA0 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		E409409E19705D020098CEA0 /* PompaDroid-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PompaDroid-Info.plist"; sourceTree = "<group>"; };
+		E40940A019705D020098CEA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E40940A219705D020098CEA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E40940A419705D020098CEA0 /* PompaDroid-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PompaDroid-Prefix.pch"; sourceTree = "<group>"; };
+		E40940A519705D020098CEA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E40940A619705D020098CEA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E40940A919705D020098CEA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		E40940AC19705D020098CEA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		E40940AE19705D020098CEA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E40940AF19705D020098CEA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E40940B619705D020098CEA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E40940BC19705D020098CEA0 /* PompaDroidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PompaDroidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40940BD19705D020098CEA0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E40940C519705D020098CEA0 /* PompaDroidTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PompaDroidTests-Info.plist"; sourceTree = "<group>"; };
+		E40940C719705D020098CEA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E40940C919705D020098CEA0 /* PompaDroidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PompaDroidTests.m; sourceTree = "<group>"; };
+		E40940D519705F020098CEA0 /* bg_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_title.png; sourceTree = "<group>"; };
+		E40940D619705F020098CEA0 /* joypad.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = joypad.atlas; sourceTree = "<group>"; };
+		E40940D719705F020098CEA0 /* map_level1.tmx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = map_level1.tmx; sourceTree = "<group>"; };
+		E40940D919705F020098CEA0 /* sprites.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = sprites.plist; sourceTree = "<group>"; };
+		E40940DA19705F020098CEA0 /* sprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sprites.png; sourceTree = "<group>"; };
+		E40940DB19705F020098CEA0 /* tiles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiles.png; sourceTree = "<group>"; };
+		E40940DC19705F020098CEA0 /* txt_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = txt_title.png; sourceTree = "<group>"; };
+		E40940DD19705F020098CEA0 /* txt_touchtostart.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = txt_touchtostart.png; sourceTree = "<group>"; };
+		E40940E719705FB60098CEA0 /* TitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleScene.h; sourceTree = "<group>"; };
+		E40940E819705FB60098CEA0 /* TitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleScene.m; sourceTree = "<group>"; };
+		E40940EA197064250098CEA0 /* Defines.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E409408E19705D010098CEA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E409409719705D010098CEA0 /* CoreGraphics.framework in Frameworks */,
+				E409409919705D010098CEA0 /* UIKit.framework in Frameworks */,
+				E409409B19705D020098CEA0 /* SpriteKit.framework in Frameworks */,
+				E409409519705D010098CEA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40940B919705D020098CEA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40940BE19705D020098CEA0 /* XCTest.framework in Frameworks */,
+				E40940C019705D020098CEA0 /* UIKit.framework in Frameworks */,
+				E40940BF19705D020098CEA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E409408819705D010098CEA0 = {
+			isa = PBXGroup;
+			children = (
+				E409409C19705D020098CEA0 /* PompaDroid */,
+				E40940C319705D020098CEA0 /* PompaDroidTests */,
+				E409409319705D010098CEA0 /* Frameworks */,
+				E409409219705D010098CEA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E409409219705D010098CEA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E409409119705D010098CEA0 /* PompaDroid.app */,
+				E40940BC19705D020098CEA0 /* PompaDroidTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E409409319705D010098CEA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E409409419705D010098CEA0 /* Foundation.framework */,
+				E409409619705D010098CEA0 /* CoreGraphics.framework */,
+				E409409819705D010098CEA0 /* UIKit.framework */,
+				E409409A19705D020098CEA0 /* SpriteKit.framework */,
+				E40940BD19705D020098CEA0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E409409C19705D020098CEA0 /* PompaDroid */ = {
+			isa = PBXGroup;
+			children = (
+				E40940A519705D020098CEA0 /* AppDelegate.h */,
+				E40940A619705D020098CEA0 /* AppDelegate.m */,
+				E40940A819705D020098CEA0 /* Main_iPhone.storyboard */,
+				E40940AB19705D020098CEA0 /* Main_iPad.storyboard */,
+				E40940AE19705D020098CEA0 /* ViewController.h */,
+				E40940AF19705D020098CEA0 /* ViewController.m */,
+				E40940B619705D020098CEA0 /* Images.xcassets */,
+				E40940E619705F6D0098CEA0 /* Menus */,
+				E40940D319705EC90098CEA0 /* Resources */,
+				E409409D19705D020098CEA0 /* Supporting Files */,
+			);
+			path = PompaDroid;
+			sourceTree = "<group>";
+		};
+		E409409D19705D020098CEA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E409409E19705D020098CEA0 /* PompaDroid-Info.plist */,
+				E409409F19705D020098CEA0 /* InfoPlist.strings */,
+				E40940A219705D020098CEA0 /* main.m */,
+				E40940A419705D020098CEA0 /* PompaDroid-Prefix.pch */,
+				E40940EA197064250098CEA0 /* Defines.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E40940C319705D020098CEA0 /* PompaDroidTests */ = {
+			isa = PBXGroup;
+			children = (
+				E40940C919705D020098CEA0 /* PompaDroidTests.m */,
+				E40940C419705D020098CEA0 /* Supporting Files */,
+			);
+			path = PompaDroidTests;
+			sourceTree = "<group>";
+		};
+		E40940C419705D020098CEA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E40940C519705D020098CEA0 /* PompaDroidTests-Info.plist */,
+				E40940C619705D020098CEA0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E40940D319705EC90098CEA0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E40940D419705F020098CEA0 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		E40940D419705F020098CEA0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				E40940D519705F020098CEA0 /* bg_title.png */,
+				E40940D619705F020098CEA0 /* joypad.atlas */,
+				E40940D719705F020098CEA0 /* map_level1.tmx */,
+				E40940D819705F020098CEA0 /* sprites.atlasc */,
+				E40940DB19705F020098CEA0 /* tiles.png */,
+				E40940DC19705F020098CEA0 /* txt_title.png */,
+				E40940DD19705F020098CEA0 /* txt_touchtostart.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		E40940D819705F020098CEA0 /* sprites.atlasc */ = {
+			isa = PBXGroup;
+			children = (
+				E40940D919705F020098CEA0 /* sprites.plist */,
+				E40940DA19705F020098CEA0 /* sprites.png */,
+			);
+			path = sprites.atlasc;
+			sourceTree = "<group>";
+		};
+		E40940E619705F6D0098CEA0 /* Menus */ = {
+			isa = PBXGroup;
+			children = (
+				E40940E719705FB60098CEA0 /* TitleScene.h */,
+				E40940E819705FB60098CEA0 /* TitleScene.m */,
+			);
+			name = Menus;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E409409019705D010098CEA0 /* PompaDroid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40940CD19705D020098CEA0 /* Build configuration list for PBXNativeTarget "PompaDroid" */;
+			buildPhases = (
+				E409408D19705D010098CEA0 /* Sources */,
+				E409408E19705D010098CEA0 /* Frameworks */,
+				E409408F19705D010098CEA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PompaDroid;
+			productName = PompaDroid;
+			productReference = E409409119705D010098CEA0 /* PompaDroid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E40940BB19705D020098CEA0 /* PompaDroidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40940D019705D020098CEA0 /* Build configuration list for PBXNativeTarget "PompaDroidTests" */;
+			buildPhases = (
+				E40940B819705D020098CEA0 /* Sources */,
+				E40940B919705D020098CEA0 /* Frameworks */,
+				E40940BA19705D020098CEA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E40940C219705D020098CEA0 /* PBXTargetDependency */,
+			);
+			name = PompaDroidTests;
+			productName = PompaDroidTests;
+			productReference = E40940BC19705D020098CEA0 /* PompaDroidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E409408919705D010098CEA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = LucasAndradeRibeiro;
+				TargetAttributes = {
+					E40940BB19705D020098CEA0 = {
+						TestTargetID = E409409019705D010098CEA0;
+					};
+				};
+			};
+			buildConfigurationList = E409408C19705D010098CEA0 /* Build configuration list for PBXProject "PompaDroid" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E409408819705D010098CEA0;
+			productRefGroup = E409409219705D010098CEA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E409409019705D010098CEA0 /* PompaDroid */,
+				E40940BB19705D020098CEA0 /* PompaDroidTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E409408F19705D010098CEA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40940E419705F020098CEA0 /* txt_title.png in Resources */,
+				E40940DF19705F020098CEA0 /* joypad.atlas in Resources */,
+				E40940E319705F020098CEA0 /* tiles.png in Resources */,
+				E40940E219705F020098CEA0 /* sprites.png in Resources */,
+				E40940E119705F020098CEA0 /* sprites.plist in Resources */,
+				E40940B719705D020098CEA0 /* Images.xcassets in Resources */,
+				E40940E519705F020098CEA0 /* txt_touchtostart.png in Resources */,
+				E40940E019705F020098CEA0 /* map_level1.tmx in Resources */,
+				E40940AD19705D020098CEA0 /* Main_iPad.storyboard in Resources */,
+				E40940AA19705D020098CEA0 /* Main_iPhone.storyboard in Resources */,
+				E40940A119705D020098CEA0 /* InfoPlist.strings in Resources */,
+				E40940DE19705F020098CEA0 /* bg_title.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40940BA19705D020098CEA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40940C819705D020098CEA0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E409408D19705D010098CEA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40940B019705D020098CEA0 /* ViewController.m in Sources */,
+				E40940A719705D020098CEA0 /* AppDelegate.m in Sources */,
+				E40940A319705D020098CEA0 /* main.m in Sources */,
+				E40940E919705FB60098CEA0 /* TitleScene.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40940B819705D020098CEA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40940CA19705D020098CEA0 /* PompaDroidTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E40940C219705D020098CEA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E409409019705D010098CEA0 /* PompaDroid */;
+			targetProxy = E40940C119705D020098CEA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E409409F19705D020098CEA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E40940A019705D020098CEA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E40940A819705D020098CEA0 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E40940A919705D020098CEA0 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E40940AB19705D020098CEA0 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E40940AC19705D020098CEA0 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E40940C619705D020098CEA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E40940C719705D020098CEA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E40940CB19705D020098CEA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E40940CC19705D020098CEA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E40940CE19705D020098CEA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PompaDroid/PompaDroid-Prefix.pch";
+				INFOPLIST_FILE = "PompaDroid/PompaDroid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E40940CF19705D020098CEA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PompaDroid/PompaDroid-Prefix.pch";
+				INFOPLIST_FILE = "PompaDroid/PompaDroid-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E40940D119705D020098CEA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PompaDroid.app/PompaDroid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PompaDroid/PompaDroid-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PompaDroidTests/PompaDroidTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E40940D219705D020098CEA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PompaDroid.app/PompaDroid";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PompaDroid/PompaDroid-Prefix.pch";
+				INFOPLIST_FILE = "PompaDroidTests/PompaDroidTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E409408C19705D010098CEA0 /* Build configuration list for PBXProject "PompaDroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40940CB19705D020098CEA0 /* Debug */,
+				E40940CC19705D020098CEA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E40940CD19705D020098CEA0 /* Build configuration list for PBXNativeTarget "PompaDroid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40940CE19705D020098CEA0 /* Debug */,
+				E40940CF19705D020098CEA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E40940D019705D020098CEA0 /* Build configuration list for PBXNativeTarget "PompaDroidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40940D119705D020098CEA0 /* Debug */,
+				E40940D219705D020098CEA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E409408919705D010098CEA0 /* Project object */;
+}

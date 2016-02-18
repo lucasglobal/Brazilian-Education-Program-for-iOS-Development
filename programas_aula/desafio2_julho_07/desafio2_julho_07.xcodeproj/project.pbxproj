@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4093FC5196B3EBD0098CEA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4093FC4196B3EBD0098CEA0 /* Foundation.framework */; };
+		E4093FC7196B3EBD0098CEA0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4093FC6196B3EBD0098CEA0 /* CoreGraphics.framework */; };
+		E4093FC9196B3EBD0098CEA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4093FC8196B3EBD0098CEA0 /* UIKit.framework */; };
+		E4093FCF196B3EBD0098CEA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4093FCD196B3EBD0098CEA0 /* InfoPlist.strings */; };
+		E4093FD1196B3EBD0098CEA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E4093FD0196B3EBD0098CEA0 /* main.m */; };
+		E4093FD5196B3EBD0098CEA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E4093FD4196B3EBD0098CEA0 /* AppDelegate.m */; };
+		E4093FD7196B3EBD0098CEA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4093FD6196B3EBD0098CEA0 /* Images.xcassets */; };
+		E4093FDE196B3EBD0098CEA0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4093FDD196B3EBD0098CEA0 /* XCTest.framework */; };
+		E4093FDF196B3EBD0098CEA0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4093FC4196B3EBD0098CEA0 /* Foundation.framework */; };
+		E4093FE0196B3EBD0098CEA0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4093FC8196B3EBD0098CEA0 /* UIKit.framework */; };
+		E4093FE8196B3EBD0098CEA0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E4093FE6196B3EBD0098CEA0 /* InfoPlist.strings */; };
+		E4093FEA196B3EBD0098CEA0 /* desafio2_julho_07Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = E4093FE9196B3EBD0098CEA0 /* desafio2_julho_07Tests.m */; };
+		E4093FF6196B3ED70098CEA0 /* PrimeiraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4093FF4196B3ED70098CEA0 /* PrimeiraViewController.m */; };
+		E4093FF7196B3ED70098CEA0 /* PrimeiraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4093FF5196B3ED70098CEA0 /* PrimeiraViewController.xib */; };
+		E4093FFB196B3EEB0098CEA0 /* SegundaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4093FF9196B3EEB0098CEA0 /* SegundaViewController.m */; };
+		E4093FFC196B3EEB0098CEA0 /* SegundaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4093FFA196B3EEB0098CEA0 /* SegundaViewController.xib */; };
+		E409407F196DC7B20098CEA0 /* Carro.m in Sources */ = {isa = PBXBuildFile; fileRef = E409407E196DC7B20098CEA0 /* Carro.m */; };
+		E4094086196F0C330098CEA0 /* NovaDataAluguelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E4094084196F0C330098CEA0 /* NovaDataAluguelViewController.m */; };
+		E4094087196F0C330098CEA0 /* NovaDataAluguelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4094085196F0C330098CEA0 /* NovaDataAluguelViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4093FE1196B3EBD0098CEA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E4093FB9196B3EBD0098CEA0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E4093FC0196B3EBD0098CEA0;
+			remoteInfo = desafio2_julho_07;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E4093FC1196B3EBD0098CEA0 /* desafio2_julho_07.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = desafio2_julho_07.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4093FC4196B3EBD0098CEA0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E4093FC6196B3EBD0098CEA0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E4093FC8196B3EBD0098CEA0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E4093FCC196B3EBD0098CEA0 /* desafio2_julho_07-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "desafio2_julho_07-Info.plist"; sourceTree = "<group>"; };
+		E4093FCE196B3EBD0098CEA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4093FD0196B3EBD0098CEA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E4093FD2196B3EBD0098CEA0 /* desafio2_julho_07-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "desafio2_julho_07-Prefix.pch"; sourceTree = "<group>"; };
+		E4093FD3196B3EBD0098CEA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E4093FD4196B3EBD0098CEA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E4093FD6196B3EBD0098CEA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E4093FDC196B3EBD0098CEA0 /* desafio2_julho_07Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = desafio2_julho_07Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4093FDD196B3EBD0098CEA0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E4093FE5196B3EBD0098CEA0 /* desafio2_julho_07Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "desafio2_julho_07Tests-Info.plist"; sourceTree = "<group>"; };
+		E4093FE7196B3EBD0098CEA0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E4093FE9196B3EBD0098CEA0 /* desafio2_julho_07Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = desafio2_julho_07Tests.m; sourceTree = "<group>"; };
+		E4093FF3196B3ED70098CEA0 /* PrimeiraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimeiraViewController.h; sourceTree = "<group>"; };
+		E4093FF4196B3ED70098CEA0 /* PrimeiraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimeiraViewController.m; sourceTree = "<group>"; };
+		E4093FF5196B3ED70098CEA0 /* PrimeiraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrimeiraViewController.xib; sourceTree = "<group>"; };
+		E4093FF8196B3EEB0098CEA0 /* SegundaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegundaViewController.h; sourceTree = "<group>"; };
+		E4093FF9196B3EEB0098CEA0 /* SegundaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegundaViewController.m; sourceTree = "<group>"; };
+		E4093FFA196B3EEB0098CEA0 /* SegundaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegundaViewController.xib; sourceTree = "<group>"; };
+		E409407D196DC7B20098CEA0 /* Carro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Carro.h; sourceTree = "<group>"; };
+		E409407E196DC7B20098CEA0 /* Carro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Carro.m; sourceTree = "<group>"; };
+		E4094083196F0C330098CEA0 /* NovaDataAluguelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NovaDataAluguelViewController.h; sourceTree = "<group>"; };
+		E4094084196F0C330098CEA0 /* NovaDataAluguelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NovaDataAluguelViewController.m; sourceTree = "<group>"; };
+		E4094085196F0C330098CEA0 /* NovaDataAluguelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NovaDataAluguelViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E4093FBE196B3EBD0098CEA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4093FC7196B3EBD0098CEA0 /* CoreGraphics.framework in Frameworks */,
+				E4093FC9196B3EBD0098CEA0 /* UIKit.framework in Frameworks */,
+				E4093FC5196B3EBD0098CEA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4093FD9196B3EBD0098CEA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4093FDE196B3EBD0098CEA0 /* XCTest.framework in Frameworks */,
+				E4093FE0196B3EBD0098CEA0 /* UIKit.framework in Frameworks */,
+				E4093FDF196B3EBD0098CEA0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4093FB8196B3EBD0098CEA0 = {
+			isa = PBXGroup;
+			children = (
+				E4093FCA196B3EBD0098CEA0 /* desafio2_julho_07 */,
+				E4093FE3196B3EBD0098CEA0 /* desafio2_julho_07Tests */,
+				E4093FC3196B3EBD0098CEA0 /* Frameworks */,
+				E4093FC2196B3EBD0098CEA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E4093FC2196B3EBD0098CEA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E4093FC1196B3EBD0098CEA0 /* desafio2_julho_07.app */,
+				E4093FDC196B3EBD0098CEA0 /* desafio2_julho_07Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E4093FC3196B3EBD0098CEA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4093FC4196B3EBD0098CEA0 /* Foundation.framework */,
+				E4093FC6196B3EBD0098CEA0 /* CoreGraphics.framework */,
+				E4093FC8196B3EBD0098CEA0 /* UIKit.framework */,
+				E4093FDD196B3EBD0098CEA0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4093FCA196B3EBD0098CEA0 /* desafio2_julho_07 */ = {
+			isa = PBXGroup;
+			children = (
+				E4093FD3196B3EBD0098CEA0 /* AppDelegate.h */,
+				E4093FD4196B3EBD0098CEA0 /* AppDelegate.m */,
+				E409407D196DC7B20098CEA0 /* Carro.h */,
+				E409407E196DC7B20098CEA0 /* Carro.m */,
+				E4093FD6196B3EBD0098CEA0 /* Images.xcassets */,
+				E4093FCB196B3EBD0098CEA0 /* Supporting Files */,
+				E4093FF3196B3ED70098CEA0 /* PrimeiraViewController.h */,
+				E4093FF4196B3ED70098CEA0 /* PrimeiraViewController.m */,
+				E4093FF5196B3ED70098CEA0 /* PrimeiraViewController.xib */,
+				E4093FF8196B3EEB0098CEA0 /* SegundaViewController.h */,
+				E4093FF9196B3EEB0098CEA0 /* SegundaViewController.m */,
+				E4093FFA196B3EEB0098CEA0 /* SegundaViewController.xib */,
+				E4094083196F0C330098CEA0 /* NovaDataAluguelViewController.h */,
+				E4094084196F0C330098CEA0 /* NovaDataAluguelViewController.m */,
+				E4094085196F0C330098CEA0 /* NovaDataAluguelViewController.xib */,
+			);
+			path = desafio2_julho_07;
+			sourceTree = "<group>";
+		};
+		E4093FCB196B3EBD0098CEA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4093FCC196B3EBD0098CEA0 /* desafio2_julho_07-Info.plist */,
+				E4093FCD196B3EBD0098CEA0 /* InfoPlist.strings */,
+				E4093FD0196B3EBD0098CEA0 /* main.m */,
+				E4093FD2196B3EBD0098CEA0 /* desafio2_julho_07-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4093FE3196B3EBD0098CEA0 /* desafio2_julho_07Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E4093FE9196B3EBD0098CEA0 /* desafio2_julho_07Tests.m */,
+				E4093FE4196B3EBD0098CEA0 /* Supporting Files */,
+			);
+			path = desafio2_julho_07Tests;
+			sourceTree = "<group>";
+		};
+		E4093FE4196B3EBD0098CEA0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E4093FE5196B3EBD0098CEA0 /* desafio2_julho_07Tests-Info.plist */,
+				E4093FE6196B3EBD0098CEA0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E4093FC0196B3EBD0098CEA0 /* desafio2_julho_07 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4093FED196B3EBD0098CEA0 /* Build configuration list for PBXNativeTarget "desafio2_julho_07" */;
+			buildPhases = (
+				E4093FBD196B3EBD0098CEA0 /* Sources */,
+				E4093FBE196B3EBD0098CEA0 /* Frameworks */,
+				E4093FBF196B3EBD0098CEA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = desafio2_julho_07;
+			productName = desafio2_julho_07;
+			productReference = E4093FC1196B3EBD0098CEA0 /* desafio2_julho_07.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E4093FDB196B3EBD0098CEA0 /* desafio2_julho_07Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E4093FF0196B3EBD0098CEA0 /* Build configuration list for PBXNativeTarget "desafio2_julho_07Tests" */;
+			buildPhases = (
+				E4093FD8196B3EBD0098CEA0 /* Sources */,
+				E4093FD9196B3EBD0098CEA0 /* Frameworks */,
+				E4093FDA196B3EBD0098CEA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E4093FE2196B3EBD0098CEA0 /* PBXTargetDependency */,
+			);
+			name = desafio2_julho_07Tests;
+			productName = desafio2_julho_07Tests;
+			productReference = E4093FDC196B3EBD0098CEA0 /* desafio2_julho_07Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E4093FB9196B3EBD0098CEA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = LucasAndradeRibeiro;
+				TargetAttributes = {
+					E4093FDB196B3EBD0098CEA0 = {
+						TestTargetID = E4093FC0196B3EBD0098CEA0;
+					};
+				};
+			};
+			buildConfigurationList = E4093FBC196B3EBD0098CEA0 /* Build configuration list for PBXProject "desafio2_julho_07" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E4093FB8196B3EBD0098CEA0;
+			productRefGroup = E4093FC2196B3EBD0098CEA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E4093FC0196B3EBD0098CEA0 /* desafio2_julho_07 */,
+				E4093FDB196B3EBD0098CEA0 /* desafio2_julho_07Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E4093FBF196B3EBD0098CEA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4093FFC196B3EEB0098CEA0 /* SegundaViewController.xib in Resources */,
+				E4094087196F0C330098CEA0 /* NovaDataAluguelViewController.xib in Resources */,
+				E4093FCF196B3EBD0098CEA0 /* InfoPlist.strings in Resources */,
+				E4093FD7196B3EBD0098CEA0 /* Images.xcassets in Resources */,
+				E4093FF7196B3ED70098CEA0 /* PrimeiraViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4093FDA196B3EBD0098CEA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4093FE8196B3EBD0098CEA0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E4093FBD196B3EBD0098CEA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4093FFB196B3EEB0098CEA0 /* SegundaViewController.m in Sources */,
+				E4093FD5196B3EBD0098CEA0 /* AppDelegate.m in Sources */,
+				E4094086196F0C330098CEA0 /* NovaDataAluguelViewController.m in Sources */,
+				E409407F196DC7B20098CEA0 /* Carro.m in Sources */,
+				E4093FF6196B3ED70098CEA0 /* PrimeiraViewController.m in Sources */,
+				E4093FD1196B3EBD0098CEA0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4093FD8196B3EBD0098CEA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4093FEA196B3EBD0098CEA0 /* desafio2_julho_07Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E4093FE2196B3EBD0098CEA0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E4093FC0196B3EBD0098CEA0 /* desafio2_julho_07 */;
+			targetProxy = E4093FE1196B3EBD0098CEA0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E4093FCD196B3EBD0098CEA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4093FCE196B3EBD0098CEA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E4093FE6196B3EBD0098CEA0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E4093FE7196B3EBD0098CEA0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E4093FEB196B3EBD0098CEA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E4093FEC196B3EBD0098CEA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E4093FEE196B3EBD0098CEA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "desafio2_julho_07/desafio2_julho_07-Prefix.pch";
+				INFOPLIST_FILE = "desafio2_julho_07/desafio2_julho_07-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E4093FEF196B3EBD0098CEA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "desafio2_julho_07/desafio2_julho_07-Prefix.pch";
+				INFOPLIST_FILE = "desafio2_julho_07/desafio2_julho_07-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E4093FF1196B3EBD0098CEA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/desafio2_julho_07.app/desafio2_julho_07";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "desafio2_julho_07/desafio2_julho_07-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "desafio2_julho_07Tests/desafio2_julho_07Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E4093FF2196B3EBD0098CEA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/desafio2_julho_07.app/desafio2_julho_07";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "desafio2_julho_07/desafio2_julho_07-Prefix.pch";
+				INFOPLIST_FILE = "desafio2_julho_07Tests/desafio2_julho_07Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E4093FBC196B3EBD0098CEA0 /* Build configuration list for PBXProject "desafio2_julho_07" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4093FEB196B3EBD0098CEA0 /* Debug */,
+				E4093FEC196B3EBD0098CEA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4093FED196B3EBD0098CEA0 /* Build configuration list for PBXNativeTarget "desafio2_julho_07" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4093FEE196B3EBD0098CEA0 /* Debug */,
+				E4093FEF196B3EBD0098CEA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4093FF0196B3EBD0098CEA0 /* Build configuration list for PBXNativeTarget "desafio2_julho_07Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4093FF1196B3EBD0098CEA0 /* Debug */,
+				E4093FF2196B3EBD0098CEA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E4093FB9196B3EBD0098CEA0 /* Project object */;
+}

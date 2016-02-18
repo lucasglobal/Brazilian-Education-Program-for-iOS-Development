@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E40EB51119E5AF0E00193D64 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EB51019E5AF0E00193D64 /* main.m */; };
+		E40EB51419E5AF0E00193D64 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EB51319E5AF0E00193D64 /* AppDelegate.m */; };
+		E40EB51719E5AF0E00193D64 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EB51619E5AF0E00193D64 /* GameScene.m */; };
+		E40EB51919E5AF0E00193D64 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E40EB51819E5AF0E00193D64 /* GameScene.sks */; };
+		E40EB51C19E5AF0E00193D64 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EB51B19E5AF0E00193D64 /* GameViewController.m */; };
+		E40EB51F19E5AF0E00193D64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E40EB51D19E5AF0E00193D64 /* Main.storyboard */; };
+		E40EB52119E5AF0E00193D64 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E40EB52019E5AF0E00193D64 /* Images.xcassets */; };
+		E40EB52419E5AF0E00193D64 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E40EB52219E5AF0E00193D64 /* LaunchScreen.xib */; };
+		E40EB53019E5AF0E00193D64 /* Space_EscapeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EB52F19E5AF0E00193D64 /* Space_EscapeTests.m */; };
+		E40EB55D19E5B63000193D64 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EB55C19E5B63000193D64 /* Player.m */; };
+		E40EB56019E5D74D00193D64 /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EB55F19E5D74D00193D64 /* Bullet.m */; };
+		E40EB56319E7013300193D64 /* Enemy.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EB56219E7013300193D64 /* Enemy.m */; };
+		E40EB56719E7273900193D64 /* BackGroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E40EB56619E7273900193D64 /* BackGroundLayer.m */; };
+		E4DAD06619E72B290040D98A /* estrela@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD05619E72B290040D98A /* estrela@2x.png */; };
+		E4DAD06719E72B290040D98A /* inimigo1.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD05719E72B290040D98A /* inimigo1.png */; };
+		E4DAD06819E72B290040D98A /* inimigo1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD05819E72B290040D98A /* inimigo1@2x.png */; };
+		E4DAD06919E72B290040D98A /* inimigo2.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD05919E72B290040D98A /* inimigo2.png */; };
+		E4DAD06A19E72B290040D98A /* inimigo2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD05A19E72B290040D98A /* inimigo2@2x.png */; };
+		E4DAD06B19E72B290040D98A /* inimigo3.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD05B19E72B290040D98A /* inimigo3.png */; };
+		E4DAD06C19E72B290040D98A /* inimigo3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD05C19E72B290040D98A /* inimigo3@2x.png */; };
+		E4DAD06D19E72B290040D98A /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD05D19E72B290040D98A /* player.png */; };
+		E4DAD06E19E72B290040D98A /* player@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD05E19E72B290040D98A /* player@2x.png */; };
+		E4DAD06F19E72B290040D98A /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD05F19E72B290040D98A /* spark.png */; };
+		E4DAD07019E72B290040D98A /* StarLayer1.sks in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD06019E72B290040D98A /* StarLayer1.sks */; };
+		E4DAD07119E72B290040D98A /* StarLayer2.sks in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD06119E72B290040D98A /* StarLayer2.sks */; };
+		E4DAD07219E72B290040D98A /* tiro_inimigo.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD06219E72B290040D98A /* tiro_inimigo.png */; };
+		E4DAD07319E72B290040D98A /* tiro_inimigo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD06319E72B290040D98A /* tiro_inimigo@2x.png */; };
+		E4DAD07419E72B290040D98A /* tiro_player.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD06419E72B290040D98A /* tiro_player.png */; };
+		E4DAD07519E72B290040D98A /* tiro_player@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E4DAD06519E72B290040D98A /* tiro_player@2x.png */; };
+		E4DAD07819E84E0D0040D98A /* GameState.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAD07719E84E0D0040D98A /* GameState.m */; };
+		E4DAD07B19E850960040D98A /* Label.m in Sources */ = {isa = PBXBuildFile; fileRef = E4DAD07A19E850960040D98A /* Label.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E40EB52A19E5AF0E00193D64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E40EB50319E5AF0E00193D64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E40EB50A19E5AF0E00193D64;
+			remoteInfo = "Space Escape";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E40EB50B19E5AF0E00193D64 /* Space Escape.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space Escape.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40EB50F19E5AF0E00193D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E40EB51019E5AF0E00193D64 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E40EB51219E5AF0E00193D64 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E40EB51319E5AF0E00193D64 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E40EB51519E5AF0E00193D64 /* GameScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		E40EB51619E5AF0E00193D64 /* GameScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
+		E40EB51819E5AF0E00193D64 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		E40EB51A19E5AF0E00193D64 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		E40EB51B19E5AF0E00193D64 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		E40EB51E19E5AF0E00193D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E40EB52019E5AF0E00193D64 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E40EB52319E5AF0E00193D64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E40EB52919E5AF0E00193D64 /* Space EscapeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Space EscapeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E40EB52E19E5AF0E00193D64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E40EB52F19E5AF0E00193D64 /* Space_EscapeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Space_EscapeTests.m; sourceTree = "<group>"; };
+		E40EB55B19E5B63000193D64 /* Player.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		E40EB55C19E5B63000193D64 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+		E40EB55E19E5D74D00193D64 /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
+		E40EB55F19E5D74D00193D64 /* Bullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bullet.m; sourceTree = "<group>"; };
+		E40EB56119E7013300193D64 /* Enemy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Enemy.h; sourceTree = "<group>"; };
+		E40EB56219E7013300193D64 /* Enemy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Enemy.m; sourceTree = "<group>"; };
+		E40EB56419E71F3B00193D64 /* PhysicsCategories.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhysicsCategories.h; sourceTree = "<group>"; };
+		E40EB56519E7273900193D64 /* BackGroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackGroundLayer.h; sourceTree = "<group>"; };
+		E40EB56619E7273900193D64 /* BackGroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackGroundLayer.m; sourceTree = "<group>"; };
+		E4DAD05619E72B290040D98A /* estrela@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "estrela@2x.png"; sourceTree = "<group>"; };
+		E4DAD05719E72B290040D98A /* inimigo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inimigo1.png; sourceTree = "<group>"; };
+		E4DAD05819E72B290040D98A /* inimigo1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inimigo1@2x.png"; sourceTree = "<group>"; };
+		E4DAD05919E72B290040D98A /* inimigo2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inimigo2.png; sourceTree = "<group>"; };
+		E4DAD05A19E72B290040D98A /* inimigo2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inimigo2@2x.png"; sourceTree = "<group>"; };
+		E4DAD05B19E72B290040D98A /* inimigo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inimigo3.png; sourceTree = "<group>"; };
+		E4DAD05C19E72B290040D98A /* inimigo3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "inimigo3@2x.png"; sourceTree = "<group>"; };
+		E4DAD05D19E72B290040D98A /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		E4DAD05E19E72B290040D98A /* player@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "player@2x.png"; sourceTree = "<group>"; };
+		E4DAD05F19E72B290040D98A /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		E4DAD06019E72B290040D98A /* StarLayer1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarLayer1.sks; sourceTree = "<group>"; };
+		E4DAD06119E72B290040D98A /* StarLayer2.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = StarLayer2.sks; sourceTree = "<group>"; };
+		E4DAD06219E72B290040D98A /* tiro_inimigo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiro_inimigo.png; sourceTree = "<group>"; };
+		E4DAD06319E72B290040D98A /* tiro_inimigo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiro_inimigo@2x.png"; sourceTree = "<group>"; };
+		E4DAD06419E72B290040D98A /* tiro_player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiro_player.png; sourceTree = "<group>"; };
+		E4DAD06519E72B290040D98A /* tiro_player@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tiro_player@2x.png"; sourceTree = "<group>"; };
+		E4DAD07619E84E0D0040D98A /* GameState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameState.h; sourceTree = "<group>"; };
+		E4DAD07719E84E0D0040D98A /* GameState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameState.m; sourceTree = "<group>"; };
+		E4DAD07919E850960040D98A /* Label.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Label.h; sourceTree = "<group>"; };
+		E4DAD07A19E850960040D98A /* Label.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Label.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E40EB50819E5AF0E00193D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40EB52619E5AF0E00193D64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E40EB50219E5AF0E00193D64 = {
+			isa = PBXGroup;
+			children = (
+				E40EB50D19E5AF0E00193D64 /* Space Escape */,
+				E40EB52C19E5AF0E00193D64 /* Space EscapeTests */,
+				E40EB50C19E5AF0E00193D64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E40EB50C19E5AF0E00193D64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E40EB50B19E5AF0E00193D64 /* Space Escape.app */,
+				E40EB52919E5AF0E00193D64 /* Space EscapeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E40EB50D19E5AF0E00193D64 /* Space Escape */ = {
+			isa = PBXGroup;
+			children = (
+				E4DAD05519E72B290040D98A /* SpriteKit */,
+				E40EB56419E71F3B00193D64 /* PhysicsCategories.h */,
+				E4DAD07919E850960040D98A /* Label.h */,
+				E4DAD07A19E850960040D98A /* Label.m */,
+				E4DAD07619E84E0D0040D98A /* GameState.h */,
+				E4DAD07719E84E0D0040D98A /* GameState.m */,
+				E40EB56519E7273900193D64 /* BackGroundLayer.h */,
+				E40EB56619E7273900193D64 /* BackGroundLayer.m */,
+				E40EB55B19E5B63000193D64 /* Player.h */,
+				E40EB55C19E5B63000193D64 /* Player.m */,
+				E40EB55E19E5D74D00193D64 /* Bullet.h */,
+				E40EB55F19E5D74D00193D64 /* Bullet.m */,
+				E40EB56119E7013300193D64 /* Enemy.h */,
+				E40EB56219E7013300193D64 /* Enemy.m */,
+				E40EB51219E5AF0E00193D64 /* AppDelegate.h */,
+				E40EB51319E5AF0E00193D64 /* AppDelegate.m */,
+				E40EB51519E5AF0E00193D64 /* GameScene.h */,
+				E40EB51619E5AF0E00193D64 /* GameScene.m */,
+				E40EB51819E5AF0E00193D64 /* GameScene.sks */,
+				E40EB51A19E5AF0E00193D64 /* GameViewController.h */,
+				E40EB51B19E5AF0E00193D64 /* GameViewController.m */,
+				E40EB51D19E5AF0E00193D64 /* Main.storyboard */,
+				E40EB52019E5AF0E00193D64 /* Images.xcassets */,
+				E40EB52219E5AF0E00193D64 /* LaunchScreen.xib */,
+				E40EB50E19E5AF0E00193D64 /* Supporting Files */,
+			);
+			path = "Space Escape";
+			sourceTree = "<group>";
+		};
+		E40EB50E19E5AF0E00193D64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E40EB50F19E5AF0E00193D64 /* Info.plist */,
+				E40EB51019E5AF0E00193D64 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E40EB52C19E5AF0E00193D64 /* Space EscapeTests */ = {
+			isa = PBXGroup;
+			children = (
+				E40EB52F19E5AF0E00193D64 /* Space_EscapeTests.m */,
+				E40EB52D19E5AF0E00193D64 /* Supporting Files */,
+			);
+			path = "Space EscapeTests";
+			sourceTree = "<group>";
+		};
+		E40EB52D19E5AF0E00193D64 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E40EB52E19E5AF0E00193D64 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E4DAD05519E72B290040D98A /* SpriteKit */ = {
+			isa = PBXGroup;
+			children = (
+				E4DAD05619E72B290040D98A /* estrela@2x.png */,
+				E4DAD05719E72B290040D98A /* inimigo1.png */,
+				E4DAD05819E72B290040D98A /* inimigo1@2x.png */,
+				E4DAD05919E72B290040D98A /* inimigo2.png */,
+				E4DAD05A19E72B290040D98A /* inimigo2@2x.png */,
+				E4DAD05B19E72B290040D98A /* inimigo3.png */,
+				E4DAD05C19E72B290040D98A /* inimigo3@2x.png */,
+				E4DAD05D19E72B290040D98A /* player.png */,
+				E4DAD05E19E72B290040D98A /* player@2x.png */,
+				E4DAD05F19E72B290040D98A /* spark.png */,
+				E4DAD06019E72B290040D98A /* StarLayer1.sks */,
+				E4DAD06119E72B290040D98A /* StarLayer2.sks */,
+				E4DAD06219E72B290040D98A /* tiro_inimigo.png */,
+				E4DAD06319E72B290040D98A /* tiro_inimigo@2x.png */,
+				E4DAD06419E72B290040D98A /* tiro_player.png */,
+				E4DAD06519E72B290040D98A /* tiro_player@2x.png */,
+			);
+			path = SpriteKit;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E40EB50A19E5AF0E00193D64 /* Space Escape */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40EB53319E5AF0E00193D64 /* Build configuration list for PBXNativeTarget "Space Escape" */;
+			buildPhases = (
+				E40EB50719E5AF0E00193D64 /* Sources */,
+				E40EB50819E5AF0E00193D64 /* Frameworks */,
+				E40EB50919E5AF0E00193D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Space Escape";
+			productName = "Space Escape";
+			productReference = E40EB50B19E5AF0E00193D64 /* Space Escape.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E40EB52819E5AF0E00193D64 /* Space EscapeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E40EB53619E5AF0E00193D64 /* Build configuration list for PBXNativeTarget "Space EscapeTests" */;
+			buildPhases = (
+				E40EB52519E5AF0E00193D64 /* Sources */,
+				E40EB52619E5AF0E00193D64 /* Frameworks */,
+				E40EB52719E5AF0E00193D64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E40EB52B19E5AF0E00193D64 /* PBXTargetDependency */,
+			);
+			name = "Space EscapeTests";
+			productName = "Space EscapeTests";
+			productReference = E40EB52919E5AF0E00193D64 /* Space EscapeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E40EB50319E5AF0E00193D64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = LucasAndradeRibeiro;
+				TargetAttributes = {
+					E40EB50A19E5AF0E00193D64 = {
+						CreatedOnToolsVersion = 6.0.1;
+					};
+					E40EB52819E5AF0E00193D64 = {
+						CreatedOnToolsVersion = 6.0.1;
+						TestTargetID = E40EB50A19E5AF0E00193D64;
+					};
+				};
+			};
+			buildConfigurationList = E40EB50619E5AF0E00193D64 /* Build configuration list for PBXProject "Space Escape" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E40EB50219E5AF0E00193D64;
+			productRefGroup = E40EB50C19E5AF0E00193D64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E40EB50A19E5AF0E00193D64 /* Space Escape */,
+				E40EB52819E5AF0E00193D64 /* Space EscapeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E40EB50919E5AF0E00193D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4DAD07419E72B290040D98A /* tiro_player.png in Resources */,
+				E4DAD06B19E72B290040D98A /* inimigo3.png in Resources */,
+				E4DAD06A19E72B290040D98A /* inimigo2@2x.png in Resources */,
+				E4DAD06D19E72B290040D98A /* player.png in Resources */,
+				E4DAD06F19E72B290040D98A /* spark.png in Resources */,
+				E40EB52419E5AF0E00193D64 /* LaunchScreen.xib in Resources */,
+				E4DAD06819E72B290040D98A /* inimigo1@2x.png in Resources */,
+				E4DAD07119E72B290040D98A /* StarLayer2.sks in Resources */,
+				E40EB52119E5AF0E00193D64 /* Images.xcassets in Resources */,
+				E4DAD07019E72B290040D98A /* StarLayer1.sks in Resources */,
+				E4DAD06719E72B290040D98A /* inimigo1.png in Resources */,
+				E40EB51919E5AF0E00193D64 /* GameScene.sks in Resources */,
+				E4DAD07319E72B290040D98A /* tiro_inimigo@2x.png in Resources */,
+				E4DAD06919E72B290040D98A /* inimigo2.png in Resources */,
+				E4DAD07219E72B290040D98A /* tiro_inimigo.png in Resources */,
+				E4DAD06C19E72B290040D98A /* inimigo3@2x.png in Resources */,
+				E4DAD06619E72B290040D98A /* estrela@2x.png in Resources */,
+				E4DAD07519E72B290040D98A /* tiro_player@2x.png in Resources */,
+				E4DAD06E19E72B290040D98A /* player@2x.png in Resources */,
+				E40EB51F19E5AF0E00193D64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40EB52719E5AF0E00193D64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E40EB50719E5AF0E00193D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40EB51C19E5AF0E00193D64 /* GameViewController.m in Sources */,
+				E4DAD07819E84E0D0040D98A /* GameState.m in Sources */,
+				E40EB56719E7273900193D64 /* BackGroundLayer.m in Sources */,
+				E40EB51419E5AF0E00193D64 /* AppDelegate.m in Sources */,
+				E40EB51719E5AF0E00193D64 /* GameScene.m in Sources */,
+				E40EB51119E5AF0E00193D64 /* main.m in Sources */,
+				E40EB56319E7013300193D64 /* Enemy.m in Sources */,
+				E40EB55D19E5B63000193D64 /* Player.m in Sources */,
+				E4DAD07B19E850960040D98A /* Label.m in Sources */,
+				E40EB56019E5D74D00193D64 /* Bullet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E40EB52519E5AF0E00193D64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E40EB53019E5AF0E00193D64 /* Space_EscapeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E40EB52B19E5AF0E00193D64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E40EB50A19E5AF0E00193D64 /* Space Escape */;
+			targetProxy = E40EB52A19E5AF0E00193D64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E40EB51D19E5AF0E00193D64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E40EB51E19E5AF0E00193D64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E40EB52219E5AF0E00193D64 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E40EB52319E5AF0E00193D64 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E40EB53119E5AF0E00193D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E40EB53219E5AF0E00193D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E40EB53419E5AF0E00193D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Space Escape/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E40EB53519E5AF0E00193D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Space Escape/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E40EB53719E5AF0E00193D64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Space EscapeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space Escape.app/Space Escape";
+			};
+			name = Debug;
+		};
+		E40EB53819E5AF0E00193D64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Space EscapeTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Space Escape.app/Space Escape";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E40EB50619E5AF0E00193D64 /* Build configuration list for PBXProject "Space Escape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40EB53119E5AF0E00193D64 /* Debug */,
+				E40EB53219E5AF0E00193D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E40EB53319E5AF0E00193D64 /* Build configuration list for PBXNativeTarget "Space Escape" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40EB53419E5AF0E00193D64 /* Debug */,
+				E40EB53519E5AF0E00193D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E40EB53619E5AF0E00193D64 /* Build configuration list for PBXNativeTarget "Space EscapeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E40EB53719E5AF0E00193D64 /* Debug */,
+				E40EB53819E5AF0E00193D64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E40EB50319E5AF0E00193D64 /* Project object */;
+}
